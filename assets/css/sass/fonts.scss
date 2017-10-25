@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+/*Proxima nova*/
+
+@font-face {
+    font-family: 'Proxima nova';
+    src: local('Proxima nova'), local('Proxima-nova'), url(../fonts/Mark-Simonson-Proxima-Nova-Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Proxima nova italic';
+    src: local('Proxima nova italic'), local('Proxima-nova-italic'), url(../fonts/Mark-Simonson-Proxima-Nova-Regular-Italic.otf);
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Proxima nova light';
+    src: local('Proxima nova light'), local('Proxima-nova-light'), url(../fonts/Mark-Simonson-Proxima-Nova-Light.otf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Proxima nova light';
+    src: local('Proxima nova light'), local('Proxima-nova-light'), url(../fonts/Mark-Simonson-Proxima-Nova-Light-Italic.otf);
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Proxima nova thin';
+    src: local('Proxima nova thin'), local('Proxima-nova-thin'), url(../fonts/Mark-Simonson-Proxima-Nova-Thin.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Proxima nova thin';
+    src: local('Proxima nova thin'), local('Proxima-nova-thin'), url(../fonts/Mark-Simonson-Proxima-Nova-Thin-Italic.otf);
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Proxima nova semibold';
+    src: local('Proxima nova semibold'), local('Proxima-nova-semibold'), url(../fonts/Mark-Simonson-Proxima-Nova-Semibold.otf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Proxima nova semibold';
+    src: local('Proxima nova semibold'), local('Proxima-nova-semibold'), url(../fonts/Mark-Simonson-Proxima-Nova-Semibold-Italic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Proxima nova bold';
+    src: local('Proxima nova bold'), local('Proxima-nova-bold'), url(../fonts/Mark-Simonson-Proxima-Nova-Bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Proxima nova bold';
+    src: local('Proxima nova bold'), local('Proxima-nova-bold'), url(../fonts/Mark-Simonson-Proxima-Nova-Bold-Italic.otf);
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Proxima nova extrabold';
+    src: local('Proxima nova extrabold'), local('Proxima-nova-extrabold'), url(../fonts/Mark-Simonson-Proxima-Nova-Extrabold.otf);
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Proxima nova extrabold';
+    src: local('Proxima nova extrabold'), local('Proxima-nova-extrabold'), url(../fonts/Mark-Simonson-Proxima-Nova-Extrabold-Italic.otf);
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Proxima nova black';
+    src: local('Proxima nova black'), local('Proxima-nova-black'), url(../fonts/Mark-Simonson-Proxima-Nova-Black.otf);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Proxima nova black';
+    src: local('Proxima nova black'), local('Proxima-nova-black'), url(../fonts/Mark-Simonson-Proxima-Nova-Black-Italic.otf);
+    font-style: italic;
+    font-weight: 900;
+}

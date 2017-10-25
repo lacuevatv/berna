@@ -1,0 +1,80 @@
+
+/*FUENTES*/
+$fuente-principal: 'Proxima nova', sans-serif;
+$fuente-principal-light: 'Proxima nova light', $fuente-principal;
+$fuente-principal-thin: 'Proxima nova thin', $fuente-principal;
+$fuente-principal-semibold: 'Proxima nova semibold', $fuente-principal;
+$fuente-principal-bold: 'Proxima nova bold', $fuente-principal;
+$fuente-principal-extrabold: 'Proxima nova extrabold', $fuente-principal;
+$fuente-principal-black: 'Proxima nova black', $fuente-principal;
+$fuente-principal-italic: 'Proxima nova italic', $fuente-principal;
+$fuente-secundaria: 'Inconsolata', monospace, $fuente-principal;
+
+/*COLORES*/
+$col-blanco: #fff;
+$col-negro: #444;
+$col-gris: #999;
+$col_fondo_blanco: #f1f2f4;
+$col_fondo_gris: #57565b;
+$col_destacado: #d4b890;
+
+/*GRID OPTIONS*/
+$xs: 576px; //<576px
+$sm: 768px; //<768px
+$md: 992px; //<992px
+$lg: 1200px; //<1200px
+$xlg: 1500px;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin transition($var) {
+  -webkit-transition: $var;
+     -moz-transition: $var;
+      -ms-transition: $var;
+          transition: $var;
+}
+
+@mixin box-shadow($var) {
+  -webkit-box-shadow: $var;
+     -moz-box-shadow: $var;
+      -ms-box-shadow: $var;
+          box-shadow: $var;
+}
+
+
+/*
+@media (min-width: $md) {}
+-webkit-
+-moz-
+-ms-
+-o-
+
+display: flex;
+display: -o-flex;
+display: -ms-flex;
+display: -moz-flex;
+display: -webkit-flex;
+-webkit-align-items: center;
+-moz-align-items: center;
+-ms-align-items: center;
+-o-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+-moz-justify-content: center;
+-ms-justify-content: center;
+-o-justify-content: center;
+justify-content: center;
+
+
+&:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+*/
